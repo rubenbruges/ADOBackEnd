@@ -9,7 +9,7 @@ namespace AdoClienteBack
         public String Nombre { get; set; } = String.Empty;
         public String Apellido { get; set; } = String.Empty;
         public String Direccion { get; set; } = String.Empty;
-        public String Genero { get; set; } = String.Empty;
+        public int Genero { get; set; }
         public int EstadoDelSistema { get; set; }
 
     }

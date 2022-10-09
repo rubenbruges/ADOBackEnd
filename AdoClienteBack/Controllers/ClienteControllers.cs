@@ -17,7 +17,7 @@ namespace AdoClienteBack.Controllers
                Nombre = "Ruben",
                Apellido = "Barbosa",
                Direccion = "Calle 41",
-               Genero = "M",
+               Genero = 1,
                EstadoDelSistema = 1
                 }
         };
@@ -49,7 +49,7 @@ namespace AdoClienteBack.Controllers
 
         }
 
-        //Modificar dato Cliente por numeroDocumento--PUT api/<Cliente>/5
+        //Modificar dato Cliente--PUT api/<Cliente>/5
         [HttpPut]
         public async Task<ActionResult<List<Cliente>>> UpdateCliente(Cliente request)
         {
